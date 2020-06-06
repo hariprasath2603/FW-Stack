@@ -21,7 +21,16 @@ This NodeJs application creates an automatic ticket based on the question tag. J
 
 ## Caution :warning:	
 Stackoverflow only allows 300 requests/day. If you want more frequent execution register and integrates the key from Stack Apps.
- 
+
+### AWS Configuration 
+
+ - Create DynamoDB with two fields AppName and lastQuestion
+  - Create a Lambda function  with this Nodejs project
+ - Add IAM permissions of Read and Write in specific DynamoDB to Lambda function
+ - Add environmental variables to the lambda function
+ - Enable AWS CloudWatch with the rules of trigger lambda with schedule time of your choose (5 min recommended)
+
+
 ### Environment variables
  - Use AWS with valid IAM role permissions on that DynamoDB
  - Create a DynamoDBin AWS 
