@@ -2,6 +2,13 @@
 # FW-Stack
 This project is built for Freshworks Freshdesk.
 This NodeJs application creates an automatic ticket based on the question tag. Just enter the list of tags and then this application creates a ticket to Freshdesk.
+### ScreeenShoot 
+
+#### Ticket List
+<img src="https://raw.githubusercontent.com/hariprasath2603/FW-Stack/master/screenshot/Freshdesk_ss_01.png" alt="Screen_1" width="700">
+
+#### Individual Ticket
+<img src="https://raw.githubusercontent.com/hariprasath2603/FW-Stack/master/screenshot/Freshdesk_ss_02.png" alt="Screen_2" width="700">
 
 ## Architecture 
 
