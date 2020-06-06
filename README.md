@@ -36,7 +36,10 @@ Stackoverflow only allows 300 requests/day. If you want more frequent execution 
  - Create a DynamoDBin AWS 
  - These parameters are required for this project
  - Enter the tags you have to listen  in the main function parameters
-
+ - Change this parameters to your tag which want to lookfor.
+	 - const parameters = ["firebase","google-cloud"].join(",")
+	 - Now it looking for firebase and google-cloud 
+	 - change tags to what you prefered
 | Environment variables |Description  |
 |--|--|
 | accessKeyId | AWS access key |
