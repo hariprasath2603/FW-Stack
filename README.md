@@ -36,6 +36,7 @@ Stackoverflow only allows 300 requests/day. If you want more frequent execution 
  - Create a DynamoDBin AWS 
  - These parameters are required for this project
  - Enter the tags you have to listen  in the main function parameters
+ - Config file contains the required variables
  - Change this parameters to your tag which want to lookfor.
 	 - `const parameters = ["firebase","google-cloud"].join(",")`
 	 - Now it looking for firebase and google-cloud 
@@ -47,7 +48,7 @@ Stackoverflow only allows 300 requests/day. If you want more frequent execution 
 | secretAccessKey | AWS secret Key |
 | region | Region where DynamoDB created |
 | DynamoDBTableName | Name of the table created in AWS DynamoDB|
-| appName | Your Freshdesk app name (subdomain) |
+| FD_ENDPOINT | Your Freshdesk app endpoint (subdomain) |
 |  API_KEY| Freshdesk API key  |
 
 ### Packages & others :package:
