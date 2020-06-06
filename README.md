@@ -64,5 +64,10 @@ Stackoverflow only allows 300 requests/day. If you want more frequent execution 
  - unirest
  - Freshworks REST APIs
 
+ ### Future plan
+
+ - Direct reply from Freshdesk to  StackOverflow
+ - Upvote
  
+
 
